@@ -12,6 +12,7 @@ public class UsoPersona {
         manu.nombre = "Manu";
         manu.altura = 1.73;
         System.out.println(manu.nombre + ", " + manu.edad + ". Altura: " + manu.altura + "cm");
+        System.out.println("Esta prueba es para subir esta modificación a GitHub desde VS");
 
     }
 
