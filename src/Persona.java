@@ -1,6 +1,10 @@
 public class Persona {
 
-    int edad;
-    String nombre;
-    double altura;
+    public int edad;
+    public String nombre;
+    public double altura;
+
+    public boolean esMayor18() {
+        return edad > 18;
+    }
 }
