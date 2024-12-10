@@ -2,22 +2,29 @@ package escurso;
 
 public class Cuadrado {
 
-    private double l1;
-    private double l2;
-
-    public double getL1() {
-        return l1;
+    private double lado;
+   
+    public double getLado() {
+        return lado;
     }
 
-    public void setL1(double l1) {
-        this.l1 = l1;
+    public void setLado(double lado) {
+        this.lado = lado;
+    }
+    public double getLado2() {
+        return lado;
     }
 
-    public double getL2() {
-        return l1;
+    public void setLado2(double lado) {
+        this.lado = lado;
     }
 
-    public void setL2(double l2) {
-        this.l2 = l1;
+    public Cuadrado(double lado) {
+        this.lado = lado;
     }
+
+    public double area() {
+        return lado * lado;
+    }
+
 }
