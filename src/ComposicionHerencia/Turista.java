@@ -1,17 +1,8 @@
 package ComposicionHerencia;
 
-public class Turista {
-    private String nombre;
+public class Turista extends SuperTurista {
     private Maleta maleta;
     private Maleta maleta2;
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
 
     public Maleta getMaleta() {
         return maleta;
@@ -30,8 +21,7 @@ public class Turista {
     }
 
     public Turista(String nombre) {
-        this.nombre = nombre;
-
+        this.setNombre(nombre);
     }
 
     public double sumaPeso() {
