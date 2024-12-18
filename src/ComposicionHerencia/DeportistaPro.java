@@ -17,5 +17,9 @@ public class DeportistaPro extends Deportista {
         this.nivel = nivel;
     }
 
-    
+    @Override
+    public void andar() {
+        System.out.println(" anda a 9 km/h.");
+    }
+
 }

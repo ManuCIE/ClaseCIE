@@ -15,4 +15,8 @@ public class Persona {
         this.nombre = nombre;
     }
 
+    public void andar() {
+        System.out.print(" anda a 5 km/h.");
+    }
+
 }
