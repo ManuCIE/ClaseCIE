@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="destinoPersona.jsp">
+		<p>
+			<label for="nombre">Nombre:</label> <input type="text" name="nombre"
+				id="nombre" />
+		</p>
+		<p>
+			<label for="apellidos">Apellidos:</label> <input type="text"
+				name="apellidos" id="apellidos" />
+		</p>
+
+		<p>
+			<label for="fecha">Fecha Nacimiento:</label> <input type="date"
+				name="fecha" id="fecha" />
+		</p>
+		<p>
+		Lenguaje favorito:
+			<select name="lenguaje">
+
+				<option>Java</option>
+				<option>C++</option>
+				<option>HTML</option>
+				<option>C#</option>
+			</select>
+		</p>
+		<p>
+			<input type="radio" name="nivel" value="1" /> Básico <input
+				type="radio" name="nivel" value="2" /> Intermedio <input
+				type="radio" name="nivel" value="3" /> Avanzado
+		</p>
+		<p>
+		Dispositivo más usado:
+			<select name="disp" multiple="multiple">
+
+				<option>Teléfono</option>
+				<option>Tablet</option>
+				<option>Portátil</option>
+				<option>Sobremesa</option>
+			</select>
+		<p>
+			<input type="checkbox" name="nuevo" value="true" /> Nueva
+			incorporación
+		</p>
+		<p>
+			<input type="submit" name="enviar" id="enviar" />
+		</p>
+
+
+	</form>
+</body>
+</html>

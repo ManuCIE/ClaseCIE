@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+td, tr, th {
+	border: 1px solid black;
+}
+
+table {
+	border: 2px solid black;
+}
+
+th {
+	background: yellow;
+	color: #5c04a4;
+	text-align: center;
+	font-family: helvetica;
+}
+
+td {
+	background: #f4fc98;
+	text-align: left;
+}
+
+td:hover {
+	background-color: red;
+}
+
+caption {
+	padding: 12px;
+	color: #800040;
+	font-size: 2em;
+	font-family: Verdana;
+	font-size: 2em;
+}

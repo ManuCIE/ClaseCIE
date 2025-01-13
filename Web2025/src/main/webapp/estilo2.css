@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* selector de etiqueta */
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+tbody {
+	background-color: #e6f2ff;
+}
+
+caption {
+	border: 0.5em groove blue;
+	background-color: yellow;
+	font-weight: bold;
+	font-size: 200%;
+	color: red;
+	padding: 3%;
+	color: red;
+	background-color: yellow;
+}
+
+table {
+	background-color: #f3f3f3;
+	color: solid black;
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+tbody td {
+	font-style: italic;
+	color: black;
+	padding: 10px;
+}
+
+h3 {
+	color: blue;
+}
+
+thead {
+	background-color: #e8e8e8;
+	text-align: center;
+}
