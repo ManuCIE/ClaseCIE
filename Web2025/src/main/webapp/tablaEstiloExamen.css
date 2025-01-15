@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+}
+
+th {
+	padding: 15%;
+	color: red;
+	background : yellow;
+	color: 10% solid black;
+	background: yellow;
+}
